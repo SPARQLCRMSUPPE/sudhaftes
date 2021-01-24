@@ -1,25 +1,27 @@
-@prefix : <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewntology#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sud: <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology/> .
+@prefix rez: <https://github.com/SPARQLCRMSUPPE/sudhaftes/tree/master/rezepte/> .
+@prefix sud: <http://purl.org/sud/> .
 @prefix wdt: <https://www.wikidata.org/wiki/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix brew: <http://purl.org/bier> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <https://schema.org/url> .
+@prefix schema: <https://schema.org/> .
 
 
-<https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1> rdf:type owl:NamedIndividual ,
-                                                                             wdt:Q44 ;
-                                                                             dc:creator wdt:Q236290 ;
-                                                                             rdfs:comment """
+purl:boehmischespils1   rdf:type    owl:NamedIndividual ,
+                                    wdt:Q44 ;
+                        dc:creator wdt:Q236290 ;
+                        rdfs:comment """
+
 STW: 11,83° P
 alc: x,x % vol.
 Schüttung: Pilsener u. Münchner Malz
 Hopfen: Saazer, Hallertauer Mittelfrüh
-                                                                              """ ;
-                                                                              a wdt:Q44 ;
-                                                                              dc:creator wdt:Q236290 ;
-                                                                              dc:date 20201226 ;
-                                                                              dc:isVersionOf https://github.com/SPARQLCRMSUPPE/sudhaftes/blob/master/rezepte/B%C3%B6hmisches_Pilsner.json.
+Eingebraut: 23.01.2021
+
+                                      """ ;
+                                      dc:date 20201226 ;
+                                      dc:isVersionOf rez: B%C3%B6hmisches_Pilsner.json.
