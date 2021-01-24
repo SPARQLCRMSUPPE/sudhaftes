@@ -11,7 +11,7 @@
 @prefix schema: <https://schema.org/> .
 
 
-purl:boehmischespils1   rdf:type    owl:NamedIndividual ,
+sud:boehmischespils1   rdf:type    owl:NamedIndividual ,
                                     wdt:Q44 ;
                         dc:creator  wdt:Q236290 ;
                         rdfs:comment """
@@ -44,7 +44,7 @@ Reifung:
 Evtl. Messfehler bei STW-Bestimmung: Zunächst 11,3° gemessen, dann (1 Tag später) 11,8° wtf
 Fast schien es, als habe die Gärung bereits vor Hefegabe eingesetzt wtf
 
-WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER SIMULATION EINES BRAUVORGANGS UND ENTSPR. DATENMANAGEMENTS ZU FORSCHUNGSZWECKEN ZUM ZWECK HABEN!
+WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER WISSENSCHAFTLICHEN SIMULATION EINES BRAUVORGANGS BZW. DESSEN HYPOTHETISCHEN DATENMANAGEMENTS DIENEN!
 
                                       """ ;
                                       dc:date 20210123 ;
