@@ -13,15 +13,39 @@
 
 purl:boehmischespils1   rdf:type    owl:NamedIndividual ,
                                     wdt:Q44 ;
-                        dc:creator wdt:Q236290 ;
+                        dc:creator  wdt:Q236290 ;
                         rdfs:comment """
 
+# Böhmisches Pilsener
+
 STW: 11,83° P
-alc: x,x % vol.
-Schüttung: Pilsener u. Münchner Malz
+alc: ?,? % vol.
+
+Schüttung: Pilsener Malz
 Hopfen: Saazer, Hallertauer Mittelfrüh
+Maischverfahren: Dekoktion
+Hefe: Saflager W-34/70
 Eingebraut: 23.01.2021
 
+## Protokoll
+Einmaischen: ideale Temperaturen bei Zubrühen (teils bei weitem) verfehlt – Enzyme wirksam?
+Läutern: 15l Nachguss
+Würzekochen: 90 min.
+Abschlauchen: Würze zu sehr vedünnt – Zielwert von 12,4° P deutl. unterschritten (s.o.)
+Gärverlauf ab 24.01.21 bei ca. 14° c
+Gg1 ():
+Gg2 ():
+Gg3 ():
+Gg4 ():
+Umschlauchen / Speisegabe:
+Reifung:
+
+## Sonstiges
+Evtl. Messfehler bei STW-Bestimmung: Zunächst 11,3° gemessen, dann (1 Tag später) 11,8° wtf
+Fast schien es, als habe die Gärung bereits vor Hefegabe eingesetzt wtf
+
+WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER SIMULATION EINES BRAUVORGANGS UND ENTSPR. DATENMANAGEMENTS ZU FORSCHUNGSZWECKEN ZUM ZWECK HABEN!
+
                                       """ ;
-                                      dc:date 20201226 ;
-                                      dc:isVersionOf rez:B%C3%B6hmisches_Pilsner.json.
+                                      dc:date 20210123 ;
+                                      dc:isVersionOf rez:B%C3%B6hmisches_Pilsner.json .
