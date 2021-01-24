@@ -1,28 +1,32 @@
-@prefix : <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology/> .
+@prefix : <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewntology#> .
+@prefix dc: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sud: <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology/> .
+@prefix wdt: <https://www.wikidata.org/wiki/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology> .
+@prefix schema: <https://schema.org/url> .
+@base <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewntology> .
 
-<https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology> rdf:type owl:Ontology .
+<https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewntology> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
 #################################################################
 
 ###  http://purl.org/dc/terms/creator
-<http://purl.org/dc/terms/creator> rdf:type owl:ObjectProperty ;
-                                   rdfs:domain <http://purl.org/dc/terms/Agent> ;
-                                   rdfs:range <https://www.wikidata.org/wiki/Q44> .
+dc:creator rdf:type owl:ObjectProperty ;
+           rdfs:domain dc:Agent ;
+           rdfs:range wdt:Q44 .
 
 
 ###  http://purl.org/dc/terms/isVersionOf
-<http://purl.org/dc/terms/isVersionOf> rdf:type owl:ObjectProperty ;
-                                       rdfs:domain <https://www.wikidata.org/wiki/Q44> ;
-                                       rdfs:range <https://www.wikidata.org/wiki/Q219239> ;
-                                       rdfs:label "isVersionOf" .
+dc:isVersionOf rdf:type owl:ObjectProperty ;
+               rdfs:domain wdt:Q44 ;
+               rdfs:range wdt:Q219239 ;
+               rdfs:label "isVersionOf" .
 
 
 #################################################################
@@ -30,14 +34,14 @@
 #################################################################
 
 ###  http://purl.org/dc/terms/date
-<http://purl.org/dc/terms/date> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain <https://www.wikidata.org/wiki/Q44> ;
-                                rdfs:range xsd:dateTimeStamp .
+dc:date rdf:type owl:DatatypeProperty ;
+        rdfs:domain wdt:Q44 ;
+        rdfs:range xsd:dateTimeStamp .
 
 
 ###  https://schema.org/url
 <https://schema.org/url> rdf:type owl:DatatypeProperty ;
-                         rdfs:domain <https://www.wikidata.org/wiki/Q219239> ;
+                         rdfs:domain wdt:Q219239 ;
                          rdfs:range xsd:anyURI .
 
 
@@ -46,18 +50,18 @@
 #################################################################
 
 ###  http://purl.org/dc/terms/Agent
-<http://purl.org/dc/terms/Agent> rdf:type owl:Class ;
-                                 rdfs:label "agent" .
+dc:Agent rdf:type owl:Class ;
+         rdfs:label "agent" .
 
 
 ###  https://www.wikidata.org/wiki/Q219239
-<https://www.wikidata.org/wiki/Q219239> rdf:type owl:Class ;
-                                        rdfs:label "recipe" .
+wdt:Q219239 rdf:type owl:Class ;
+            rdfs:label "recipe" .
 
 
 ###  https://www.wikidata.org/wiki/Q44
-<https://www.wikidata.org/wiki/Q44> rdf:type owl:Class ;
-                                    rdfs:label "beer" .
+wdt:Q44 rdf:type owl:Class ;
+        rdfs:label "beer" .
 
 
 #################################################################
@@ -66,13 +70,13 @@
 
 ###  https://github.com/SPARQLCRMSUPPE/sudhaftes/blob/master/rezepte/B%C3%B6hmisches_Pilsner.json
 <https://github.com/SPARQLCRMSUPPE/sudhaftes/blob/master/rezepte/B%C3%B6hmisches_Pilsner.json> rdf:type owl:NamedIndividual ,
-                                                                                                        <https://www.wikidata.org/wiki/Q219239> .
+                                                                                                        wdt:Q219239 .
 
 
 ###  https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1
 <https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1> rdf:type owl:NamedIndividual ,
-                                                                             <https://www.wikidata.org/wiki/Q44> ;
-                                                                    <http://purl.org/dc/terms/creator> <https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1> ;
+                                                                             wdt:Q44 ;
+                                                                    dc:creator <https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1> ;
                                                                     rdfs:comment """STW: 11,83° P
 alc: x,x % vol.
 Schüttung: Pilsener u. Münchner Malz
@@ -80,8 +84,8 @@ Hopfen: Saazer, Hallertauer Mittelfrüh""" .
 
 
 ###  https://www.wikidata.org/wiki/Q236290
-<https://www.wikidata.org/wiki/Q236290> rdf:type owl:NamedIndividual ,
-                                                 <http://purl.org/dc/terms/Agent> .
+wdt:Q236290 rdf:type owl:NamedIndividual ,
+                     dc:Agent .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
