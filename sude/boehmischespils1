@@ -1,17 +1,25 @@
-@prefix : <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology/> .
+@prefix : <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewntology#> .
+@prefix dc: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sud: <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology/> .
+@prefix wdt: <https://www.wikidata.org/wiki/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology> .
+@prefix schema: <https://schema.org/url> .
 
-<https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology> rdf:type owl:Ontology .
 
 <https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1> rdf:type owl:NamedIndividual ,
-                                                                             <https://www.wikidata.org/wiki/Q44> ;
-                                                                    <http://purl.org/dc/terms/creator> <https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1> ;
-                                                                    rdfs:comment """STW: 11,83° P
+                                                                             wdt:Q44 ;
+                                                                             dc:creator wdt:Q236290 ;
+                                                                             rdfs:comment """
+STW: 11,83° P
 alc: x,x % vol.
 Schüttung: Pilsener u. Münchner Malz
-Hopfen: Saazer, Hallertauer Mittelfrüh""" .
+Hopfen: Saazer, Hallertauer Mittelfrüh
+                                                                              """ ;
+                                                                              a wdt:Q44 ;
+                                                                              dc:creator wdt:Q236290 ;
+                                                                              dc:date 20201226 ;
+                                                                              dc:isVersionOf https://github.com/SPARQLCRMSUPPE/sudhaftes/blob/master/rezepte/B%C3%B6hmisches_Pilsner.json.
