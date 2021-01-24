@@ -1,16 +1,18 @@
-@prefix : <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewntology#> .
+@prefix : <http://purl.org/bier#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sud: <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewontology/> .
+@prefix rez: <https://github.com/SPARQLCRMSUPPE/sudhaftes/tree/master/rezepte/> .
+@prefix sud: <http://purl.org/sud/> .
 @prefix wdt: <https://www.wikidata.org/wiki/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix brew: <http://purl.org/bier> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <https://schema.org/url> .
-@base <https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewntology> .
+@prefix schema: <https://schema.org/> .
+@base <http://purl.org/bier> .
 
-<https://github.com/SPARQLCRMSUPPE/sudhaftes/alansbrewntology> rdf:type owl:Ontology .
+<http://purl.org/bier> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
@@ -40,9 +42,9 @@ dc:date rdf:type owl:DatatypeProperty ;
 
 
 ###  https://schema.org/url
-<https://schema.org/url> rdf:type owl:DatatypeProperty ;
-                         rdfs:domain wdt:Q219239 ;
-                         rdfs:range xsd:anyURI .
+schema:url rdf:type owl:DatatypeProperty ;
+           rdfs:domain wdt:Q219239 ;
+           rdfs:range xsd:anyURI .
 
 
 #################################################################
@@ -68,19 +70,19 @@ wdt:Q44 rdf:type owl:Class ;
 #    Individuals
 #################################################################
 
+###  http://purl.org//sud/boehmischespils1
+<http://purl.org//sud/boehmischespils1> rdf:type owl:NamedIndividual ,
+                                                 wdt:Q44 ;
+                                        rdfs:comment """STW: 11,83° P
+alc: x,x % vol.
+Schüttung: Pilsener u. Münchner Malz
+Hopfen: Saazer, Hallertauer Mittelfrüh
+Eingebraut: 23.01.2021""" .
+
+
 ###  https://github.com/SPARQLCRMSUPPE/sudhaftes/blob/master/rezepte/B%C3%B6hmisches_Pilsner.json
 <https://github.com/SPARQLCRMSUPPE/sudhaftes/blob/master/rezepte/B%C3%B6hmisches_Pilsner.json> rdf:type owl:NamedIndividual ,
                                                                                                         wdt:Q219239 .
-
-
-###  https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1
-<https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1> rdf:type owl:NamedIndividual ,
-                                                                             wdt:Q44 ;
-                                                                    dc:creator <https://github.com/SPARQLCRMSUPPE/sudhaftes/sude/boehmischespils1> ;
-                                                                    rdfs:comment """STW: 11,83° P
-alc: x,x % vol.
-Schüttung: Pilsener u. Münchner Malz
-Hopfen: Saazer, Hallertauer Mittelfrüh""" .
 
 
 ###  https://www.wikidata.org/wiki/Q236290
