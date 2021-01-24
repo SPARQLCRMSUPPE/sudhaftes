@@ -11,7 +11,7 @@
 @prefix schema: <https://schema.org/> .
 
 
-sud:boehmischespils1   rdf:type    owl:NamedIndividual ,
+sud:muenchnerhell1     rdf:type    owl:NamedIndividual ,
                                    wdt:Q44 ;
                        dc:creator  wdt:Q236290 ,
                                    wdt:Q105064653 ;
@@ -23,7 +23,7 @@ STW: 11,9° P
 alc: 4,27 % vol.
 
 Schüttung: Pilsener Malz, Münchner Malz
-Hopfen: Saazer, Hallertauer Mittelfrüh
+Hopfen: Hallertauer Tradition, Hallertauer Perle
 Maischverfahren: Dekoktion
 Hefe: Saflager W-34/70
 Eingebraut: 26.12.2020
@@ -32,6 +32,7 @@ Eingebraut: 26.12.2020
 Maischen:
 Läutern:
 Würzekochen: 60 min.
+Hopfebgabe:
 Abschlauchen: Würze zu sehr vedünnt – Zielwert von 12,4° P deutl. unterschritten (s.o.)
 Gärverlauf ab 27.12.20 bei ca. 14° c
 Gg1 (03.01.21): 6,69°
@@ -44,10 +45,13 @@ Umschlauchen / Speisegabe: 14.01.21 / 4g CO2/l
 Reifung: ab 24.01.21
 
 ## Sonstiges
-Völlig unklar ob nicht fatale, dumme Messfehler während des gesamten Gärverlaufs passierten, oder ob die finale Messung fehllief. :(
+- Völlig unklar ob nicht fatale, dumme Messfehler während des gesamten Gärverlaufs passierten, oder ob eher die finale Messung fehllief. :(
+- CO2 zu niedrig
+- vollmundig!
 
 !!! WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER WISSENSCHAFTLICHEN SIMULATION EINES BRAUVORGANGS BZW. DESSEN HYPOTHETISCHEN DATENMANAGEMENTS DIENEN !!!
 
                                       """ ;
                                       dc:date 20210123 ;
-                                      dc:isVersionOf <https://braumagazin.de/article/muenchner-hell-rezepte-und-brautipps/#1_Platz_Graf_Plato_alias_Hartmut_-_Ein_ganz_normales_Helles> .
+                                      dc:isVersionOf <https://braumagazin.de/article/muenchner-hell-rezepte-und-brautipps/#1_Platz_Graf_Plato_alias_Hartmut_-_Ein_ganz_normales_Helles> ,
+                                                     <https://braumagazin.de/article/verkocht-und-zugebrueht/> .
