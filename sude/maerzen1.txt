@@ -1,0 +1,49 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rez: <https://github.com/SPARQLCRMSUPPE/sudhaftes/tree/master/rezepte/> .
+@prefix sud: <http://purl.org/sud/> .
+@prefix wdt: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix brew: <http://purl.org/bier> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+
+sud:muenchnerhell1     rdf:type    owl:NamedIndividual ,
+                                   wdt:Q44 ;
+                       dc:creator  wdt:Q236290 ;
+                       rdfs:comment """
+
+# Märzen/Lager
+
+STW: 13,06° P
+alc: 
+
+Schüttung: Wiener Malz
+Hopfen: Hallertauer Perle
+Maischverfahren: Dekoktion
+Hefe: Saflager W-34/70
+Eingebraut: 28.02.2021
+
+## Protokoll
+Maischen: s. Rezept
+Läutern: ca. 8l Nachguss
+Würzekochen: 60 min.
+Hopfengabe: Vorderwürze
+Abschlauchen:
+Gärverlauf ab 28.02.2021 bei ca. ?° c
+Gg1 (??.??.??): 
+Umschlauchen / Speisegabe: ??.??.??1 / ?g CO2/l
+Reifung: ab ??.??.??
+
+## Sonstiges
+- Generell zuviel Malz im Verhältnis z. Wasser?
+- Desaströse Ausbeute: ca. 3,8l statt 12
+
+!!! WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER WISSENSCHAFTLICHEN SIMULATION EINES BRAUVORGANGS BZW. DESSEN HYPOTHETISCHEN DATENMANAGEMENTS DIENEN !!!
+
+                                      """ ;
+                                      dc:date 20210228 ;
+                                      dc:isVersionOf <https://www.maischemalzundmehr.de/index.php?inhaltmitte=rezept&id=1151&suche_begriff=oktoberfest&factoraw=20&factorsha=66&factorha1=10&factorha2=10&factorha3=10> .
