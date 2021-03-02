@@ -1,0 +1,11 @@
+--2021-03-01 16:43:17--  https://report.deutsche-digitale-bibliothek.de/index.php?module=API
+Auflösen des Hostnamens report.deutsche-digitale-bibliothek.de (report.deutsche-digitale-bibliothek.de)… 141.66.192.29
+Verbindungsaufbau zu report.deutsche-digitale-bibliothek.de (report.deutsche-digitale-bibliothek.de)|141.66.192.29|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/xml]
+Wird in »index.php?module=API« gespeichert.
+
+index.php?module=API                       [<=>                                                                         ]       0  --.-KB/s               index.php?module=API                       [ <=>                                                                        ]     165  --.-KB/s    in 0s      
+
+2021-03-01 16:43:17 (26,2 MB/s) - »index.php?module=API« gespeichert [165]
+
