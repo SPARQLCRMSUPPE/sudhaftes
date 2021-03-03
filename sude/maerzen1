@@ -11,10 +11,11 @@
 @prefix schema: <https://schema.org/> .
 
 
-sud:muenchnerhell1     rdf:type    owl:NamedIndividual ,
-                                   wdt:Q44 ;
-                       dc:creator  wdt:Q236290 ;
-                       rdfs:comment """
+sud:maerzen1     rdf:type    owl:NamedIndividual ,
+                             wdt:Q44 ;
+                 dc:creator  wdt:Q236290 ;
+                 rdfs:comment """
+
 
 # Märzen/Lager
 
