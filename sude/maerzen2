@@ -1,0 +1,50 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rez: <https://github.com/SPARQLCRMSUPPE/sudhaftes/tree/master/rezepte/> .
+@prefix sud: <http://purl.org/sud/> .
+@prefix wdt: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix brew: <http://purl.org/bier> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+
+sud:maerzen2     rdf:type    owl:NamedIndividual ,
+                             wdt:Q44 ;
+                 dc:creator  wdt:Q236290 ;
+                 rdfs:comment """
+
+
+# Märzen/Lager
+
+STW: ° P
+alc:
+
+Schüttung: 3 kg Pilsener, 1 kg Wiener
+Hopfen: 28g Hallertauer Tradition, 18g Hallertauer Mittelfrüh
+Maischverfahren: Dekoktion
+Hefe: Saflager W-34/70
+Eingebraut: 14.03.2021
+
+## Protokoll
+Maischen: s. Rezept
+Läutern: ca.
+Würzekochen: 60 min.
+Hopfengabe:
+Abschlauchen:
+Gärverlauf ab 15.03.2021 bei ca. ?° c
+GG1 ():
+Umschlauchen / Speisegabe: ??.??.??1 / ?g CO2/l
+Reifung: ab ??.??.??
+
+## Sonstiges
+-
+
+!!! WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER WISSENSCHAFTLICHEN SIMULATION EINES BRAUVORGANGS BZW. DESSEN HYPOTHETISCHEN DATENMANAGEMENTS DIENEN !!!
+
+                                      """ ;
+                                      dc:date 20210228 ;
+                                      dc:isVersionOf <https://braumagazin.de/article/muenchner-hell-rezepte-und-brautipps/#2_Platz_Moritz_Gretzschel_-_Muenchner_Festbier>
+                                      dc:isVersionOf <
