@@ -19,10 +19,10 @@ sud:maerzen2     rdf:type    owl:NamedIndividual ,
 
 # Märzen/Lager
 
-STW: ° P
+STW: 13,08°P
 alc:
 
-Schüttung: 3 kg Pilsener, 1 kg Wiener
+Schüttung: Pilsener-/Wiener Malz
 Hopfen: Hallertauer Tradition, Hallertauer Mittelfrüh
 Maischverfahren: Dekoktion
 Hefe: Saflager W-34/70
@@ -30,7 +30,7 @@ Eingebraut: 14.03.2021
 
 ## Protokoll
 Maischen:
-* Pf: Einmaischen 12,6l, 39°C = 35°C -> 10 min. Rast
+* Pf: Einmaischen 3 kg PiMa, 1 kg WieMa in 12,6l, 39°C = 35°C -> 10 min. Rast
 * Pf: 43°C
 * Pf: 15 min. Rast -> B
 \Rast besser in B machen
@@ -51,14 +51,15 @@ Maischen:
 Läutern: ca. 16l Nachguss -> 11,5° P
 Würzekochen: 60 min.
 Hopfengabe: 28g Hallertauer Tradition (Kochbeginn), 18g Hallertauer Mittelfrüh (40 min.)
-Abschlauchen:
-Gärverlauf ab 15.03.2021 bei ca. ?° c
+\13,77°P nach Würzekochen + 1l Wasser -> 13,08°P
+Sudhausausbeute: 65,3%
+Gärverlauf ab 15.03.2021 bei ca. 14° c
 GG1 ():
 Umschlauchen / Speisegabe: ??.??.??1 / ?g CO2/l
 Reifung: ab ??.??.??
 
 ## Sonstiges
--
+- Eigentlich eher ein Helles als ein Märzen...
 
 !!! WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER WISSENSCHAFTLICHEN SIMULATION EINES BRAUVORGANGS BZW. DESSEN HYPOTHETISCHEN DATENMANAGEMENTS DIENEN !!!
 
