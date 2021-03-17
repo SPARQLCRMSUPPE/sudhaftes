@@ -20,7 +20,7 @@ sud:maerzen1     rdf:type    owl:NamedIndividual ,
 # Märzen/Lager
 
 STW: 13,06° P
-alc: 
+alc: c. 5,7% vol
 
 Schüttung: Wiener Malz
 Hopfen: Hallertauer Perle
@@ -40,7 +40,9 @@ GG2 (04.03.21): 7,78°
 GG3 (10.03.21): 3,61°
 GG4 (12.03.21): 2,86°
 GG5 (14.03.21): 2,7°
-Umschlauchen / Speisegabe: ??.??.??1 / ?g CO2/l
+GG6 (17.03.21): 2,7°
+Umschlauchen / Speisegabe: 17.03.21 / 5,9g CO2/l
+Nachreifen: 1 Tag Diacetyl-Rast
 Reifung: ab ??.??.??
 
 ## Sonstiges
