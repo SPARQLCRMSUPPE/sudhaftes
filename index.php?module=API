@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<result>
-	<error message="The parameter 'method' isn't set in the Request, and a default value wasn't provided." />
-</result>
