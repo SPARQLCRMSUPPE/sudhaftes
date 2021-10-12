@@ -1,0 +1,87 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rez: <https://github.com/SPARQLCRMSUPPE/sudhaftes/tree/master/rezepte/> .
+@prefix sud: <http://purl.org/sud/> .
+@prefix wdt: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix brew: <http://purl.org/bier> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+
+sud:boehmischespils2     rdf:type    owl:NamedIndividual ,
+                                    wdt:Q44 ;
+                 dc:creator  wdt:Q236290 ;
+                 rdfs:comment """
+
+
+# Boehmisches Pils
+
+STW: ?°P
+alc: ?°vol
+
+Schüttung: 3,9g Pilsener Malz
+Hopfen: Tettnanger
+Maischverfahren: 3-fache Dekoktion
+Hefe: Saflager W-34/70
+Eingebraut: 13.10.2021
+
+
+
+##Protokoll
+Maischen:
+* Pf: Einmaischen 3.9 kg PiMa in 12,6l, 40°C = 35°C -> 10 min. Rast
+* Pf: 42°C
+* Pf: 15 min. Rast -> B
+\Rast besser in B machen
+* Pf: 5l Dickmaische: 72°C – 10 min. Rast
+* Pf: 10 min. kochen
+* B: Zubrühen -> 54°C – 15 min. Rast
+* Pf: 3l Dickmaische: 72°C – 10 min. Rast
+* Pf: 10 min. kochen
+* B: Zubrühen -> 62°C – 30 min. Rast
+* Pf: 4,5l Dünnmaische: 72°C – 10 min. Rast
+* Pf: 10 min. kochen
+* Pf: Zubrühen -> 72°C – 20 min. Rast
+* Abmaischen: 78°C -> LB
+(Pf = Pfanne, B = Bottich, LB = Läuterbottich)
+
+
+Würzekochen: 90 min.
+Hopfengabe: 20g VW, 12g 45 min., 8g Whirlpool
+
+Sudhausausbeute: ??%
+1.5 Tage Diacetylrast
+Gärverlauf ab 15.10.2021 bei ca. ??° c
+GG1 (??.??.????): ?,??°P
+
+Umschlauchen / Speisegabe: ??.??.???? / ?g CO2/l
+Reifung: ab ??.??.????
+
+
+
+
+
+
+
+
+40g Tettnanger (oder was halt noch da ist)
+
+50% Vorderwürze 20g
+30% Kochmitte 12g
+20% Whirlpool 8g (+ 1 Bisschen Saazer?)
+
+
+
+
+## Sonstiges
+- 
+
+!!! WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER WISSENSCHAFTLICHEN SIMULATION EINES BRAUVORGANGS BZW. DESSEN HYPOTHETISCHEN DATENMANAGEMENTS DIENEN !!!
+
+                                      """ ;
+                                      dc:date 20210228 ;
+                                      dc:isVersionOf <https://braumagazin.de/article/muenchner-hell-rezepte-und-brautipps/#2_Platz_Moritz_Gretzschel_-_Muenchner_Festbier>
+                                      dc:isVersionOf <
