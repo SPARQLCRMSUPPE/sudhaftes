@@ -19,7 +19,7 @@ sud:boehmischespils2     rdf:type    owl:NamedIndividual ,
 
 # Boehmisches Pils
 
-STW: ?°P
+STW: 12,3°P
 alc: ?°vol
 
 Schüttung: 3,9g Pilsener Malz
@@ -62,12 +62,12 @@ Hopfengabe: 20g 0 min., 12g 45 min., [8g Whirlpool.]
 
 Sudhausausbeute: ??%
 
-Gärverlauf ab 15.10.2021 bei ca. ??° c
+Gärverlauf ab 14.10.2021 bei ca. 17° c
 GG1 (??.??.????): ?,??°P
 
 2 Tage Diacetylrast
 
-Umschlauchen / Speisegabe: ??.??.???? / ?g CO2/l
+Umschlauchen / Speisegabe: ??.??.???? / 4.5g CO2/l
 Reifung: ab ??.??.????
 
 
@@ -95,5 +95,5 @@ Reifung: ab ??.??.????
 
                                       """ ;
                                       dc:date 20210228 ;
-                                      dc:isVersionOf <https://braumagazin.de/article/muenchner-hell-rezepte-und-brautipps/#2_Platz_Moritz_Gretzschel_-_Muenchner_Festbier>
-                                      dc:isVersionOf <
+                                      dc:isVersionOf <>
+                                      dc:isVersionOf <>
