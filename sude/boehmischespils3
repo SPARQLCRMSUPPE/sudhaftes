@@ -19,7 +19,7 @@ sud:boehmischespils2     rdf:type    owl:NamedIndividual ,
 
 # Boehmisches Pils
 
-STW: 12,5°P
+STW: 13,6°P
 alc: ?°vol
 
 Schüttung: 3,6kg Pilsener Malz
@@ -68,6 +68,10 @@ GG1 (20.11.2021): 11,4° P
 GG2 (21.11.2021): 9,6° P
 GG3 (22.11.2021): 9° P
 GG4 (23.11.2021): 8,5° P
+\ diese Werte sind wegen Messfehler Quatsch.
+
+
+GG5 (26.11.2021): 8,2° Brix
 
 
 
@@ -88,6 +92,8 @@ Reifung: ab ??.??.????
 
 
 ## Sonstiges
+* Merke: nicht zwischen Plato und Brix hin und her rechnen.
+Das hier verwenden: https://www.maischemalzundmehr.de/index.php?inhaltmitte=toolsrefraktorechner
 -
 
 
