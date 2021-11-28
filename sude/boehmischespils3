@@ -19,7 +19,7 @@ sud:boehmischespils2     rdf:type    owl:NamedIndividual ,
 
 # Boehmisches Pils
 
-STW: 13,6°P
+STW: 12,6°P (?)
 alc: ?°vol
 
 Schüttung: 3,6kg Pilsener Malz
@@ -72,6 +72,9 @@ GG4 (23.11.2021): 8,5° P
 
 
 GG5 (26.11.2021): 8,2° Brix
+\ Speise gemessen: 13,6° Brix (?)
+GG6 (27.11.2021): 8,3° Brix
+GG7 (28.11.2021): 7,8° Brix
 
 
 
