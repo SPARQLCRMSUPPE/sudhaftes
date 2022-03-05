@@ -1,0 +1,99 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rez: <https://github.com/SPARQLCRMSUPPE/sudhaftes/tree/master/rezepte/> .
+@prefix sud: <http://purl.org/sud/> .
+@prefix wdt: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix brew: <http://purl.org/bier> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+
+sud:boehmischespils2     rdf:type    owl:NamedIndividual ,
+                                    wdt:Q44 ;
+                 dc:creator  wdt:Q236290 ;
+                 rdfs:comment """
+
+
+# Boehmisches Pils
+
+STW: 12,9°P (13,3° Brix)
+alc: 4,9°vol
+
+Schüttung: 5,5kg Pilsener Malz / 0,5 kg MüMa
+Hopfen: VWH: Hall. Tradition 5,3% alpha, Hall. Perle 10% alpha
+Maischverfahren: 2-Maischverfahren
+Hefe: Saflager
+Eingebraut: 05.03.2022
+
+
+
+##Protokoll
+Maischen:
+1.	Pf.: einmaischen 37° -> 35°
+/
+2.	Pf.: 15 min. Rast ->
+3.	B.: 50% als Dünnmaische
+4.	Pf.: Dickmaische bei 70° 15 min
+5.	Pf.: Dickmaische 30 min. kochen
+
+6.	B.: Dickmaische in B.
+7.	B.: 15 min. Rast ->
+8.	Pf.: 33% als Dünnmaische
+9.	Pf.: Dünnmaische 20 min. kochen
+
+10.	B.: Zubrühen -> 75° (eher dann zu wenig)
+11.	B.: 15 min. Rast
+11.	B.: Läutern
+
+
+Würzekochen: 60 min.
+Hopfengabe: 12g HT VW, 20g HP 30 min., 15g HP 55 min.
+
+13,6° P nach Kochen -> 1,7l Zugabe Wasser -> 12,6° P
+
+insg. ca. 15,9l Würze
+
+Sudhausausbeute: ??%
+
+
+GG5 (26.11.2021): 8,2° Brix
+\ Speise gemessen: 13,6° Brix (?)
+GG6 (27.11.2021): 8,3° Brix
+GG7 (28.11.2021): 7,8° Brix
+GG8 (04.12.2021): 7,6° Brix
+
+Umschlauchen / Speisegabe (1,131 l): 05.12.2021 / 5,0g CO2/l
+2 Tage Diacetylrast
+Nachgärung: 07.12.2021–
+Reifung:
+
+
+
+
+
+
+
+
+
+
+
+
+## Sonstiges
+* Merke: nicht zwischen Plato und Brix hin und her rechnen.
+Das hier verwenden: https://www.maischemalzundmehr.de/index.php?inhaltmitte=toolsrefraktorechner
+-
+
+
+
+
+
+
+!!! WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER WISSENSCHAFTLICHEN SIMULATION EINES BRAUVORGANGS BZW. DESSEN HYPOTHETISCHEN DATENMANAGEMENTS DIENEN !!!
+
+                                      """ ;
+                                      dc:date 20210228 ;
+                                      dc:isVersionOf https://github.com/SPARQLCRMSUPPE/sudhaftes/blob/master/rezepte/B%C3%B6hmisches_Pilsner.json
+                                      dc:isVersionOf <>
