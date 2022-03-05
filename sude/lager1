@@ -17,7 +17,7 @@ sud:boehmischespils2     rdf:type    owl:NamedIndividual ,
                  rdfs:comment """
 
 
-# Boehmisches Pils
+# Lager1
 
 STW: 12,9°P (13,3° Brix)
 alc: 4,9°vol
@@ -25,7 +25,7 @@ alc: 4,9°vol
 Schüttung: 5,5kg Pilsener Malz / 0,5 kg MüMa
 Hopfen: VWH: Hall. Tradition 5,3% alpha, Hall. Perle 10% alpha
 Maischverfahren: 2-Maischverfahren
-Hefe: Saflager
+Hefe: WLP 838
 Eingebraut: 05.03.2022
 
 
@@ -33,41 +33,45 @@ Eingebraut: 05.03.2022
 ##Protokoll
 Maischen:
 1.	Pf.: einmaischen 37° -> 35°
-/
+/ ergab 37°
 2.	Pf.: 15 min. Rast ->
 3.	B.: 50% als Dünnmaische
+/ War am Ende vermutlich doch nur 1/3 -> hat aber dadurch besser geklappt, Temperaturen zu treffen
 4.	Pf.: Dickmaische bei 70° 15 min
+/ S.o.: vermutl. 2/3. Pfanne angebrannt -> transferieren an Herd + Töpfe
 5.	Pf.: Dickmaische 30 min. kochen
 
-6.	B.: Dickmaische in B.
+6.	B.: Dickmaische in B. -> 65°
 7.	B.: 15 min. Rast ->
 8.	Pf.: 33% als Dünnmaische
 9.	Pf.: Dünnmaische 20 min. kochen
 
-10.	B.: Zubrühen -> 75° (eher dann zu wenig)
+10.	B.: Zubrühen -> 75°
+/ vermutl. etwas weniger
 11.	B.: 15 min. Rast
-11.	B.: Läutern
+12.	B.: Läutern auf 12,2° P
 
+Nachguss: 22 l
 
 Würzekochen: 60 min.
 Hopfengabe: 12g HT VW, 20g HP 30 min., 15g HP 55 min.
 
-13,6° P nach Kochen -> 1,7l Zugabe Wasser -> 12,6° P
+13,6° P nach Kochen -> 1,7l + 0,9 Zugabe Wasser -> 12,1° P
 
-insg. ca. 15,9l Würze
+insg. ca. 29l Würze
+entnommen 2 l Speise
 
 Sudhausausbeute: ??%
 
 
-GG5 (26.11.2021): 8,2° Brix
-\ Speise gemessen: 13,6° Brix (?)
+GG1 (05.03.2022): 14,1° Brix (vor Anstellen)
 GG6 (27.11.2021): 8,3° Brix
 GG7 (28.11.2021): 7,8° Brix
 GG8 (04.12.2021): 7,6° Brix
 
 Umschlauchen / Speisegabe (1,131 l): 05.12.2021 / 5,0g CO2/l
 2 Tage Diacetylrast
-Nachgärung: 07.12.2021–
+Nachgärung: –
 Reifung:
 
 
@@ -84,7 +88,9 @@ Reifung:
 ## Sonstiges
 * Merke: nicht zwischen Plato und Brix hin und her rechnen.
 Das hier verwenden: https://www.maischemalzundmehr.de/index.php?inhaltmitte=toolsrefraktorechner
--
+* Verhältnis Wasser / Malz – 3:1 scheint eine gute Faustregel zu sein
+* Verhältnis Dickmaische / Dünnmaische – 3:1 scheint eine gute Faustregel zu sein (zumind. bei Zweimaischverfahren)
+* Stammwürze für akkuraten Wert von oben entnehmen (bei Verdünnen bzw. vor/nach Gärung) – Gärverlauf von unten reicht, um zu sehen, wann abgeschlossen.
 
 
 
@@ -94,6 +100,6 @@ Das hier verwenden: https://www.maischemalzundmehr.de/index.php?inhaltmitte=tool
 !!! WICHTIG: ES HANDELT SICH BEI DIESEN ANGABEN UM REIN FIKTIVE, DIE DER WISSENSCHAFTLICHEN SIMULATION EINES BRAUVORGANGS BZW. DESSEN HYPOTHETISCHEN DATENMANAGEMENTS DIENEN !!!
 
                                       """ ;
-                                      dc:date 20210228 ;
-                                      dc:isVersionOf https://github.com/SPARQLCRMSUPPE/sudhaftes/blob/master/rezepte/B%C3%B6hmisches_Pilsner.json
+                                      dc:date 20220305 ;
+                                      dc:isVersionOf
                                       dc:isVersionOf <>
